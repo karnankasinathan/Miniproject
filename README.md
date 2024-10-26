@@ -1,58 +1,63 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Toxic or Non-Toxic Plant Identification Using CNN
+Identifying whether a plant is toxic or non-toxic is vital tion.for public health, agriculture, and environmental safety. This project utilizes CNNs to develop a highly accurate model for classifying plants as toxic or non-toxic, improving the accessibility and precision of plant identification
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Machine learning and deep learning to address plant safety by identifying toxic and non-toxic plants. By training models like CNN,  VGG16 on a well-structured dataset, the project provides a user-friendly tool for plant identification, aiming to raise awareness about plant toxicity. This application not only helps in individual plant identification by image or name search but also introduces an innovative camera-based feature to enable real-time recognition. This blend of practical use and advanced modeling has potential applications in botany, public safety, and environmental education, supporting users in making informed decisions about plants in their surroundings.
+
+
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+Image-Based Toxicity Detection: Users can upload a plant image, and the app will predict whether it is toxic or non-toxic using trained models.
+
+Name-Based Plant Search: Users can input a plant’s name to check its toxicity status, making it easy to get information without needing an image.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
+High-Performance GPU: For training complex deep learning models like ResNet, DarkNet, and VGG16 (especially during development).
+Plant Toxicity Dataset: A well-labeled dataset containing images of toxic and non-toxic plants (e.g., 5,000 images each as per your current dataset).
+Python (with Libraries): Key libraries include TensorFlow/Keras, PyTorch, OpenCV, NumPy, Pandas, and Scikit-Learn.
+IDE (Integrated Development Environment): Such as Jupyter Notebook, Google Colab (for prototyping), or PyCharm.
+Web Frameworks (for Web Application): Flask or Django, if deploying as a web application.
+
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Screenshot 2024-10-25 152753](https://github.com/user-attachments/assets/d3fe44e7-59a0-411e-8da5-26657f5cc9e4)
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![Screenshot 2024-10-25 162845](https://github.com/user-attachments/assets/c145fd34-a56d-470f-b0cc-c0efde21958b)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![Screenshot 2024-10-25 162858](https://github.com/user-attachments/assets/b5736969-ee2f-4c18-bcb1-96e058bd5792)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 
+
+![Screenshot 2024-10-26 180916](https://github.com/user-attachments/assets/ffc03ebc-06d1-4336-aee5-65ee1ccbf549)
+
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+plant toxicity identification project aims to provide reliable, real-time plant classification, accurately identifying plants as toxic or non-toxic through advanced models like CNN, ResNet, and VGG16. With both image upload and camera-based detection, users can easily assess plant safety on the go, whether by uploading a photo or scanning with their camera. This accessible, user-friendly tool enhances public safety by helping people avoid harmful plants, making it useful for outdoor enthusiasts, gardeners, and healthcare providers alike. Additionally, the app serves as an educational resource, supporting awareness and safety in fields such as agriculture and environmental science. In the long term, it offers broad applications, empowering users to make informed decisions about the plants they encounter daily.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+
+1. “Deep Learning for Plant Identification in Natural Environment “, YuanLiu,
+Guan Wang, Haiyan Zhang, 2017
+
+2. “Image Classification for Toxic and Non- Toxic Plants “,MaadShatnawi ,Bakhee ,Almani, 2023
+
+3. “Plant ToxicityClassificati on by Image “ , Eera Bhatt, 2023
+
+4. “The Analysis of PlantsImage Recognition Based on
+DeepLearning and Artificial Neural Network” ,Jiang
+Huixian ,2020
 
 
 
